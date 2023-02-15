@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "outDir": "app/dist/js", //depois que eu ler os arquivos TS, onde vou gravar os arquivos resultante.
+        "target": "ES6", //quero que converta toda a linguagem na versao ECMAScript 6.
+        "noEmitOnError": true, //não gera arquivo Js enquanto o TS não estiver passando na compilação(error).
+        "noImplicitAny": true,
+        "removeComments": true, //comentarios não apareceram nos arquivos js.
+        "strictNullChecks":true, //só sera null, caso eu atribua o null.
+        "experimentalDecorators": true, //usar Decorators.
+        "sourceMap": true
+    },
+    "include": ["app/**/*" ] //inclui a pasta app e tudo que estiver dentro e jogue na pasta 'dist/js'.
+}
